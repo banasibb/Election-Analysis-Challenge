@@ -2,6 +2,17 @@
 Module 3 Election Analysis Challenge Assignment
 ## Overview of Election Audit
 Explain the purpose of this election audit analysis.
+The purpose of the PyPoll challenge was to use leverage VS Code to analyze a CSV file provided by a Colorado Board of Elections employee requesting an audit of a recent congressional election. 
+### Resources:
+- Data Source: election_results.csv
+- Software: Python, 3.7.6, Microsoft Virtual Studio Code 1.71.1
+### Analysis Components:
+As part of this audit, the following tasks were required:
+  1. Calculate a total number of votes cast.
+  2. Get a complete list of candidates who received votes.
+  3. Calculate the total number of votes each candidate received.
+  4. Calculate the percentage of votes each candidate won.
+  5. Determine the winner of the election based on popular vote.
 ## Election-Audit Results
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 - How many votes were cast in this congressional election?
