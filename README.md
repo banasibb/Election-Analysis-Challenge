@@ -6,7 +6,7 @@ The purpose of the PyPoll challenge was to use leverage VS Code to analyze a CSV
 - Data Source: election_results.csv
 - Software: Python, 3.7.6, Microsoft Virtual Studio Code 1.71.1
 ### Analysis Components:
-As part of the module coursework (completed prior to the challenge assignment), tasks #1 through #5 below were required. Tasks #6 - #8 were required as part of the PyPoll Challenge :
+As part of the module coursework (completed prior to the challenge assignment), tasks #1 through #5 below were required. Tasks #6 through #8 were required as part of the PyPoll Challenge :
   1. Calculate a total number of votes cast.
   2. Get a complete list of candidates who received votes.
   3. Calculate the total number of votes each candidate received.
