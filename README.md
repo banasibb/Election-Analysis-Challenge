@@ -1,7 +1,7 @@
 # Election-Analysis-Challenge
 Module 3 Election Analysis Challenge Assignment
 ## Overview of Election Audit
-The purpose of the PyPoll challenge was to use leverage VS Code to analyze a CSV file provided by a Colorado Board of Elections employee requesting an audit of a recent congressional election. The file provided contained 
+The purpose of the PyPoll challenge was to use leverage VS Code to analyze a CSV file provided by a Colorado Board of Elections employee requesting an audit of a recent congressional election. The file provided contained data for approximately 370k votes cast on election day, organized into three columns: Ballot ID, County and Candidate. 
 ### Resources:
 - Data Source: election_results.csv
 - Software: Python, 3.7.6, Microsoft Virtual Studio Code 1.71.1
