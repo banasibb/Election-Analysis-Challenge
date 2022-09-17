@@ -64,6 +64,23 @@ Using a bulleted list, address the following election outcomes. Use images or ex
         print(county_results, end="")
         txt_file.write(county_results)
   ```
-- Which county had the largest number of votes?
+- Which county had the largest number of votes?<br />
+    Denver County had the largest voter turnout with 306,055 votes or 82.8% of total votes cast.<br />
+     <br />The following code was required to conduct this analysis and print the results to the terminal: <br />
+ ```
+        if (county_vote > largest_county_turnout_votes) and (
+            county_vote_percentage > largest_county_turnout_percentage):
+            largest_county_turnout_votes = county_vote
+            largest_county_turnout_percentage = county_vote_percentage
+            largest_county_turnout = county
+
+    winning_county_summary = (
+        f"-------------------------\n"
+        f"Largest County Turnout: {largest_county_turnout}\n"
+        f"-------------------------\n"
+        )
+    print(winning_county_summary)
+    txt_file.write(winning_county_summary)
+  ```
 ## Election-Audit Summary
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
