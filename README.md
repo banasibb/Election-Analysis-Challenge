@@ -31,8 +31,23 @@ Using a bulleted list, address the following election outcomes. Use images or ex
             f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
   ```
   
-- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-    The winner of the election was Diana DeGette, with a total of 272,892 votes or 73.8% of the total votes.
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?<br />
+    The winner of the election was Diana DeGette, with a total of 272,892 votes or 73.8% of the total votes.<br />
+    <br />The following code was required to conduct this analysis: <br />
+     ```
+        if (votes > winning_count) and (vote_percentage > winning_percentage):
+            winning_count = votes
+            winning_candidate = candidate_name
+            winning_percentage = vote_percentage
+    winning_candidate_summary = (
+        f"-------------------------\n"
+        f"Winner: {winning_candidate}\n"
+        f"Winning Vote Count: {winning_count:,}\n"
+        f"Winning Percentage: {winning_percentage:.1f}%\n"
+        f"-------------------------\n")
+    print(winning_candidate_summary)
+    txt_file.write(winning_candidate_summary)
+  ```
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 - Which county had the largest number of votes?
 ## Election-Audit Summary
