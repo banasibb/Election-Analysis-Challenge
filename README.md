@@ -86,8 +86,5 @@ Using a bulleted list, address the following election outcomes. Use images or ex
     txt_file.write(winning_county_summary)
   ```
 ## Election-Audit Summary
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.<br />
-Additions to this script to may include:
-1. An analysis of the total and percentage of total votes by candidate by individual county, which could be used for campaign strategy purposes in future elections.
-2. Incorporation of the population of each county to identify geographic regions where voter turnout is low. This information could be used to target key areas that may have low percentages of the population that may have low voter registration or awareness of upcoming elections.
+This script could be used to analyze the results of any election, and may be improved upon if it also included an analysis of the total and percentage of total votes by candidate by individual county, which could be used for campaign strategy purposes in future elections. This could help candidates target key geographic areas underserved by their messaging. The analysis may also be improved by the incorporation of the population of each county to identify geographic regions where voter turnout is low. This information could be used to target key areas that may have low percentages of the population that are registered to vote or lack awareness of upcoming elections.
 
