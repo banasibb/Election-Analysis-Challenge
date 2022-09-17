@@ -14,11 +14,24 @@ As part of this audit, the following tasks were required:
   5. Determine the winner of the election based on popular vote.
 ## Election-Audit Results
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
-- How many votes were cast in this congressional election?
+- How many votes were cast in this congressional election?<br />
   The total number of votes cast in the election was 369,711.
+
+- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.<br />
+  The following excerpt of code was written to conduct this analysis:<br />
+  # Save each candidate name, total votes received and percentage of total votes to the terminal.
+    for candidate_name in candidate_votes:
+        # Retrieve vote count and a percentage of votes.
+        votes = candidate_votes[candidate_name]
+        vote_percentage = float(votes) / float(total_votes) * 100
+        candidate_results = (
+            f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+  Charles Casper Stockham: 23.0% (85,213)<br />
+  Diana DeGette: 73.8% (272,892)<br />
+  Raymon Anthony Doane: 3.1% (11,606)<br />
+  
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 - Which county had the largest number of votes?
-- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 ## Election-Audit Summary
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
