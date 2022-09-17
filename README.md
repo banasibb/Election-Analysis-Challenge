@@ -27,10 +27,10 @@ Using a bulleted list, address the following election outcomes. Use images or ex
         candidate_results = (
             f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
   ```
-   The results were as follows: <br />
-   Charles Casper Stockham: 23.0% (85,213)<br />
-   Diana DeGette: 73.8% (272,892)<br />
-   Raymon Anthony Doane: 3.1% (11,606)<br />
+     The results were as follows: <br />
+      Charles Casper Stockham: 23.0% (85,213)<br />
+      Diana DeGette: 73.8% (272,892)<br />
+      Raymon Anthony Doane: 3.1% (11,606)<br />
   
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
