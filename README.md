@@ -19,14 +19,14 @@ Using a bulleted list, address the following election outcomes. Use images or ex
 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.<br />
   The following excerpt of code was written to conduct this analysis:<br />
- '''
+ ```
     for candidate_name in candidate_votes:
         # Retrieve vote count and a percentage of votes.
         votes = candidate_votes[candidate_name]
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
             f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-            '''
+  ```
   Charles Casper Stockham: 23.0% (85,213)<br />
   Diana DeGette: 73.8% (272,892)<br />
   Raymon Anthony Doane: 3.1% (11,606)<br />
