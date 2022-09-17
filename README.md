@@ -33,7 +33,7 @@ Using a bulleted list, address the following election outcomes. Use images or ex
   
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?<br />
     The winner of the election was Diana DeGette, with a total of 272,892 votes or 73.8% of the total votes.<br />
-    <br />The following code was required to conduct this analysis: <br />
+    <br />The following code was required to conduct this analysis and print the results to the terminal: <br />
      ```
         if (votes > winning_count) and (vote_percentage > winning_percentage):
             winning_count = votes
@@ -48,7 +48,11 @@ Using a bulleted list, address the following election outcomes. Use images or ex
     print(winning_candidate_summary)
     txt_file.write(winning_candidate_summary)
   ```
-- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.<br />
+  The results for each county are as follows:<br />
+  Jefferson: 10.5% (38,855)<br />
+  Denver: 82.8% (306,055)<br />
+  Arapahoe: 6.7% (24,801)<br />
 - Which county had the largest number of votes?
 ## Election-Audit Summary
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
