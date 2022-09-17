@@ -34,7 +34,7 @@ Using a bulleted list, address the following election outcomes. Use images or ex
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?<br />
     The winner of the election was Diana DeGette, with a total of 272,892 votes or 73.8% of the total votes.<br />
     <br />The following code was required to conduct this analysis and print the results to the terminal: <br />
-     ```
+ ```
         if (votes > winning_count) and (vote_percentage > winning_percentage):
             winning_count = votes
             winning_candidate = candidate_name
@@ -54,7 +54,7 @@ Using a bulleted list, address the following election outcomes. Use images or ex
      Denver: 82.8% (306,055)<br />
      Arapahoe: 6.7% (24,801)<br />
      <br />The following code was required to conduct this analysis and print the results to the terminal: <br />
-          ```
+ ```
     for county in county_options:
         county_vote = county_votes[county]
         county_vote_percentage = float(county_vote) / float(total_votes) * 100
