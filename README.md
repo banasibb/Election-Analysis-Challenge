@@ -12,7 +12,7 @@ As part of the module coursework (completed prior to the challenge assignment), 
   3. Calculate the total number of votes each candidate received.
   4. Calculate the percentage of votes each candidate won.
   5. Determine the winner of the election based on popular vote.
-For the PyPoll challenge, the following tasks were required:
+<br />For the PyPoll challenge, the following tasks were required:
   1. Calculate voter turnout for each county.
   2. Calculate the percentage of votes from each county out of the total count.
   3. Determine the county with the highest turnout.
