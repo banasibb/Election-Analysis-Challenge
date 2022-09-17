@@ -18,7 +18,10 @@ Using a bulleted list, address the following election outcomes. Use images or ex
   The total number of votes cast in the election was 369,711.
 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.<br />
-  The following excerpt of code was written to conduct this analysis:<br />
+  Charles Casper Stockham: 23.0% (85,213)<br />
+  Diana DeGette: 73.8% (272,892)<br />
+  Raymon Anthony Doane: 3.1% (11,606)<br />
+  <br />The following excerpt of code was written to conduct this analysis:<br />
  ```
     for candidate_name in candidate_votes:
         # Retrieve vote count and a percentage of votes.
