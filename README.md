@@ -49,10 +49,21 @@ Using a bulleted list, address the following election outcomes. Use images or ex
     txt_file.write(winning_candidate_summary)
   ```
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.<br />
-  The results for each county are as follows:<br />
-  Jefferson: 10.5% (38,855)<br />
-  Denver: 82.8% (306,055)<br />
-  Arapahoe: 6.7% (24,801)<br />
+    The results for each county are as follows:<br />
+     Jefferson: 10.5% (38,855)<br />
+     Denver: 82.8% (306,055)<br />
+     Arapahoe: 6.7% (24,801)<br />
+     <br />The following code was required to conduct this analysis and print the results to the terminal: <br />
+          ```
+    for county in county_options:
+        county_vote = county_votes[county]
+        county_vote_percentage = float(county_vote) / float(total_votes) * 100
+        county_results = (
+            f"{county}: {county_vote_percentage:.1f}% ({county_vote:,})\n"
+            )
+        print(county_results, end="")
+        txt_file.write(county_results)
+  ```
 - Which county had the largest number of votes?
 ## Election-Audit Summary
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
