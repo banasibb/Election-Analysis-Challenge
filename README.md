@@ -27,10 +27,6 @@ Using a bulleted list, address the following election outcomes. Use images or ex
         candidate_results = (
             f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
   ```
-     The results were as follows: 
-      Charles Casper Stockham: 23.0% (85,213)
-      Diana DeGette: 73.8% (272,892)
-      Raymon Anthony Doane: 3.1% (11,606)
   
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
     The winner of the election was Diana DeGette, with a total of 272,892 votes or 73.8% of the total votes.
