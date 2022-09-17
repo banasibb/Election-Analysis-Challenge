@@ -6,16 +6,15 @@ The purpose of the PyPoll challenge was to use leverage VS Code to analyze a CSV
 - Data Source: election_results.csv
 - Software: Python, 3.7.6, Microsoft Virtual Studio Code 1.71.1
 ### Analysis Components:
-As part of the module coursework (completed prior to the challenge assignment), the following tasks were required:
+As part of the module coursework (completed prior to the challenge assignment), tasks #1 through #5 below were required. Tasks #6 - #8 were required as part of the PyPoll Challenge :
   1. Calculate a total number of votes cast.
   2. Get a complete list of candidates who received votes.
   3. Calculate the total number of votes each candidate received.
   4. Calculate the percentage of votes each candidate won.
   5. Determine the winner of the election based on popular vote.
-<br />For the PyPoll challenge, the following tasks were required:
-  1. Calculate voter turnout for each county.
-  2. Calculate the percentage of votes from each county out of the total count.
-  3. Determine the county with the highest turnout.
+  6. Calculate voter turnout for each county.
+  7. Calculate the percentage of votes from each county out of the total count.
+  8. Determine the county with the highest turnout.
 ## Election-Audit Results
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 - How many votes were cast in this congressional election?<br />
