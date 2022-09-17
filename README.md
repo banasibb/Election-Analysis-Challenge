@@ -33,6 +33,7 @@ Using a bulleted list, address the following election outcomes. Use images or ex
       Raymon Anthony Doane: 3.1% (11,606)
   
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+    The winner of the election was Diana DeGette, with a total of 272,892 votes or 73.8% of the total votes.
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 - Which county had the largest number of votes?
 ## Election-Audit Summary
